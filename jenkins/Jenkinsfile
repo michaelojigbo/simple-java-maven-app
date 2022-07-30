@@ -16,10 +16,5 @@ pipeline {
                 }
             }
         }
-        stage('complete') {
-            steps {
-                sh 'job complete'
-            }
-        }
     }
 }
